@@ -1,0 +1,324 @@
+
+
+
+
+// 1250
+
+@media (max-width: 1250px){
+   .book{
+      &__content-london{
+         order: 1;
+      }
+      &__reservationimg-london{
+         order: -1;
+      }
+   }
+   
+   .pasta__img img{
+      width: 600px;
+      height: 100%;
+   }
+   .book__content{
+      margin-left: 0;
+      padding: 0 100px;
+   }
+   .book__inner{
+      margin-left: 0;
+      flex-direction: column-reverse;
+      align-items: center;
+   }
+   .book__form form{
+      margin-bottom: 50px;
+   }
+   .book__form-box{
+      justify-content: center;
+   }
+}
+
+@media (max-width: 1060px){
+   .about__content{
+      max-width: 700px;
+      margin-bottom: 30px;
+   }
+   .about__inner{
+      flex-wrap: wrap;
+   }
+   .pasta .ingredients__icons{
+      margin-bottom: 50px;
+   }
+   .pasta .ingredients__icons img{
+      width: 90px;
+      height: 90px;
+   }
+   .pasta__content{
+      margin-top: 50px;
+   }
+   .pasta__img img{
+      width: 500px;
+   }
+}
+
+@media(max-width: 990px){
+   .gadgets-socials a{
+      display: block;
+      color: #fff;
+      &:hover{
+         color: #c90;
+      }
+   }
+   .gadgets-socials a+a{
+      margin-left: 30px;
+   }
+   .header__link{
+      display: none;
+   }
+   .menu{
+      width: 108%;
+      margin-left: -5%;
+      &__list{
+         display: none;
+      }
+   }
+   .margin-kill {
+      margin-bottom: 0px !important; }
+   .menu__btn{
+      display: flex;
+   }
+   .header__logo--main{
+      display: none;
+   }
+   .header__logo--scroll{
+      display: block;
+   }
+   .header__menu{
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      justify-content: space-between;
+   }
+   .header__top{
+      position: absolute;
+      background: #191919;
+
+      &-inner{
+         flex-direction: column; 
+      }
+   }
+}
+
+
+
+/// 900px
+
+@media (max-width: 900px){
+  
+   .book__inner{
+      padding: 60px 0 25px;
+   }
+   .ingredients__inner{
+      margin: 0 auto;
+   }
+   .pasta__img img{
+      display: none;
+   }
+   
+   .reviews__text{
+      width: 100%;
+      padding-right: 20px;
+      font-size: 20px;
+      line-height: 30px;
+      &::before{
+         font-size: 70px;
+      }
+   }
+   .reviews__inner{
+    
+      padding: 50px 20px 30px 30px;
+   }
+   .reviews{
+      padding: 100px 20px;
+   }
+   .footer__inner{
+      margin-left: 0;
+      flex-direction: column;
+      align-items: center;
+   }
+   .footer__box + .footer__box{
+      margin-top: 50px;
+   }
+   .footer__icons{
+      margin-top: 20px;
+   }
+ }
+
+ /// 800
+ @media (max-width: 680px){
+   .reviews{
+      padding: 100px 0;
+   }
+   .reviews__inner{
+      padding: 50px 10px 30px 15px;
+   }
+   .reviews__text{
+      padding-left: 30px;
+      font-size: 18px;
+      &::before{
+         font-size: 50px;
+      }
+   }
+   .book__img{
+      display: block;
+      img{
+         width: 100%;
+         height: 450px;
+      }
+   }
+   .title{
+      font-size: 30px;
+   }
+   .book__img img+img{
+      margin-left: 0;
+      margin-top: 30px;
+   }
+ }
+
+
+ // 600
+
+ @media (max-width: 600px){
+   .book__reservationimg img{
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+   }
+   .about__content-photo{
+      max-width: 130px;
+   }
+   .about__inner{
+      padding-top: 30px;
+   }
+   .about__img img{
+      width: 400px;
+   }
+   .ingredients__inner{
+      padding: 60px 20px;
+   }
+   .ingredients .ingredients__icons{
+      justify-content: space-evenly;
+   }
+  
+   .book__content{
+      padding: 0 50px;
+   }
+   .book__form-box{
+      display: block;
+      text-align: center;
+   }
+   .book__form .half+.half{
+      margin-left: 0;
+      margin-top: 30px;
+   }
+ }
+
+ /// 480
+ @media (max-width: 480px){
+   .ingredients__inner{
+      max-width: 100%;
+   }
+   .ingredients .ingredients__icons img{
+      width: 90px;
+      height: 90px;
+   }
+   .reviews__text{
+      font-size: 15px;
+      line-height: 24px;
+      span{
+         margin-top: 20px;
+         font-size: 13px;
+      }
+   }
+ }
+ //// 400px
+
+ @media (max-width: 400px){
+   .book__reservationimg img{
+      height: 200px;
+   }
+   .about__img img{
+      max-width: 300px;
+   }
+   .about__inner{
+      padding-bottom: 10px;
+      padding-top: 0;
+   }
+   .ingredients .ingredients__icons{
+      justify-content: space-between;
+      margin-top: 40px;
+   }
+  
+   .ingredients__inner{
+      padding: 50px 10px;
+   }
+   .pasta__content{
+      padding: 0;
+   }
+   .pasta .ingredients__icons img+img{
+      margin-left: 20px;
+   }
+   .pasta .ingredients__icons img,
+   .ingredients .ingredients__icons img{
+      height: 80px;
+      width: 80px;
+   }
+   .about__content-text,
+   .ingredients__text,
+   .footer__box-text{
+      line-height: 20px;
+      font-size: 14px;
+   }
+   .reviews__text{
+      padding-right: 0;
+      padding-left: 0;
+   }
+   .reviews{
+      padding: 60px 0;
+   }
+   .reviews__text::before{
+     display: none;
+   }
+   .ingredients__img{
+      margin: 15px auto;
+   }
+   .decorate-yellow{
+      margin: 15px 0;
+   }
+   .title{
+      font-size: 26px;
+   }
+   .reviews__inner{
+      padding: 35px 10px 30px 10px;
+   }
+   .footer__box{
+      max-width: 198px;
+   }
+   .footer{
+      padding: 40px 0;
+   }
+   .footer__box-title{
+      font-size: 18px;
+   }
+   .footer__box-about{
+      max-width: 100%;
+   }
+   
+ }
+
+
+
+ @media (max-width: 320px){
+   .book__img{
+      width: 100%;
+   }
+  
+ }
