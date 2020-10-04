@@ -4,7 +4,14 @@
 
 
 $(function () {
-   
+   $('.gallery__item-link').magnificPopup({
+
+      type: 'image',
+      gallery: {
+         enabled: true
+      }
+      // other options
+   });
 
    $('select').styler();
 
@@ -43,17 +50,4 @@ $(function () {
 
 
 
-
-
-
-// function scrollFunction() {
-//    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-//       logo.style.cssText = `width:100px;`;
-//       header.style.cssText = `position: fixed; background: rgba(0, 0, 0, 0.6);
-//       `;
-//    } else {
-//       logo.style.cssText = `width:;`;
-//       header.style.cssText = `position: absolute; background:;`;
-//    }
-// }
 
